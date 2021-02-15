@@ -1,0 +1,92 @@
+.header-row{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+  }
+  .header .logo {
+    margin-right: 10px;
+    float: left;
+    width: 65px;
+  }
+  .header .logo img {
+    border-radius: 4px;
+  }
+
+  .header-content h5 {
+    padding: 1px;
+  }
+
+
+  .content{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Scroll {
+    height:250px;
+    overflow-y: scroll;
+  }
+
+  #slideShow {height: 83px; width:416px; border-radius:5px;}
+  img {border-radius:5px;}
+
+  body {
+    background-color: #e6f2ff;
+    overflow: hidden;
+  }
+  .card-table{
+    background-color: #ffffff;
+  }
+  .my-custom-scrollbar {
+  position: relative;
+  height: 200px;
+  overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+  }
+  /*-----------------------------
+      News Ticker
+  ------------------------------*/
+  .acme-news-ticker {
+    position: fixed;
+    bottom: 0 ;
+    margin-bottom: 0;
+    width: 100%;
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+
+    background: #1974d2;
+    height: 53px;
+  }
+
+    .acme-news-ticker-label {
+      height: auto;
+      background-color:Blue;
+      padding: 1px 30px 0px 30px;
+      color: white;
+      margin-right: 30px;
+    }
+    .acme-news-ticker-box {
+      height: 100%;
+      padding-top: 1px;
+      overflow: hidden;
+      margin-top: 9px;
+    }
+      @media (max-width: 575px) {
+        .acme-news-ticker-box {
+          padding-left: 10px;
+          padding-right: 320px; }
+        }
+      .acme-news-ticker-box ul {
+        width: 100%;
+
+        padding: 0;
+        margin: 0;
+      }
+        .acme-news-ticker-box ul li h4 {
+          color: white;
+
+        }
